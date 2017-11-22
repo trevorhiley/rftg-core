@@ -1,0 +1,9 @@
+{
+  "name": "rftg-core",
+  "version": "1.0.0",
+  "description": "Roll for the galaxy core logic",
+  "main": "index.js",
+  "repository": "https://github.com/trevorhiley/rftg-core.git",
+  "author": "Trevor Hiley",
+  "license": "MIT"
+}
