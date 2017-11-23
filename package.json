@@ -2,8 +2,15 @@
   "name": "rftg-core",
   "version": "1.0.0",
   "description": "Roll for the galaxy core logic",
-  "main": "index.js",
   "repository": "https://github.com/trevorhiley/rftg-core.git",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
   "author": "Trevor Hiley",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
 }
